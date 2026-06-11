@@ -1,0 +1,13 @@
+{
+  "name": "systemic-investing-design",
+  "owner": {
+    "name": "David Hodgson"
+  },
+  "plugins": [
+    {
+      "name": "systemic-investing-design",
+      "source": "./",
+      "description": "Systemic investing design: system→capital strategies, strategic portfolios, blended capital architecture, financial backbones, developmental & Blue Marble evaluation."
+    }
+  ]
+}

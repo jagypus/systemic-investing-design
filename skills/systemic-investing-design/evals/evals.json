@@ -1,0 +1,55 @@
+{
+  "skill_name": "systemic-investing-design",
+  "evals": [
+    {
+      "id": 0,
+      "prompt": "Our family office has set aside €25M that we want to use 'for systems change' in the Dutch regional food system — we're based in Gelderland and care about the transition away from intensive livestock farming. We can do grants, below-market loans, and normal investments. Where do we even start? Design us a strategy and write it up as a document we can take to our investment committee.",
+      "expected_output": "A written systemic investment strategy document covering intent & positionality, system boundary and understanding (with honest gaps), a combinatorial theory of transformation naming a portfolio archetype, a capital architecture across the full spectrum (grants as load-bearing, catalytic positions with crowding-in logic, backbone arrangement), a funded learning infrastructure, an honest trade-offs section including when a simpler strategy would win, and first 90 days. Should flag scale honesty (€25M cannot orchestrate a national transition alone) and community decision power.",
+      "files": [],
+      "assertions": [
+        "Document contains ALL of these as distinct sections (not passing mentions): intent/positionality, system understanding, theory of transformation, capital architecture, learning/measurement, honest trade-offs, and concrete first steps",
+        "Positionality is examined explicitly: the family's power position, the origin/character of the capital, and an honest role self-assessment (orchestrator vs funder vs joiner) — generic humility language alone does not pass",
+        "Starts from what the system needs and derives the capital mix from it (system→capital), rather than starting from asset allocation buckets",
+        "Names the kind of portfolio being proposed (e.g., probes-first evolving toward synergy/strategic-gaps) and ties it to how well the system is currently understood",
+        "Non-investable levers (policy, narrative, organizing, research) are explicitly funded in the capital plan, not just mentioned",
+        "Addresses scale honesty: states what €25M cannot do alone and recommends joining/co-funding existing efforts or backbone arrangements",
+        "Learning/evaluation infrastructure has a named owner and an explicit budget allocation",
+        "Locates real decision power for farmers/community in governance (not just consultation)",
+        "Contains an honest trade-offs/costs section including when a simpler approach (conventional impact investing or grantmaking) would serve better"
+      ]
+    },
+    {
+      "id": 1,
+      "prompt": "Our foundation runs what we call an impact portfolio: £40M across 8 ESG-screened public equity funds, 4 direct investments in clean-energy companies, and 3 grant programmes (financial literacy, food banks, a journalism fund). The board has started saying we do 'systemic investing'. Do we? Be honest. What would it actually take?",
+      "expected_output": "A developmental diagnostic that identifies the actual portfolio archetype (likely a Cabinet of Curiosities / Risk-Reward hybrid, not a Synergy portfolio), places the portfolio on the single-point → systemic continuum per layer, names the absence of a system boundary, theory of transformation, and learning infrastructure, gives one highest-leverage shift per layer with named examples, distinguishes systemic investing from ESG/impact vocabulary precisely, and remains charitable — naming what the current portfolio legitimately is rather than just what it isn't.",
+      "files": [],
+      "assertions": [
+        "Gives a direct, honest answer to 'do we?' (no / not yet) early in the response, before softening context",
+        "Characterizes what the portfolio actually is in charitable terms (e.g., a diversified impact/ESG collection with legitimate value), not just what it isn't",
+        "Assesses the portfolio against a portfolio typology: names the type it currently is (eclectic collection / cabinet-of-curiosities-like) AND the type 'systemic investing' implies (interventions designed to interact / synergy), AND names the capability gap between them (orchestration/backbone capacity, shared thesis governance)",
+        "Identifies the specific missing elements: a defined system boundary, a theory of transformation connecting the holdings, and learning/sensemaking infrastructure",
+        "Distinguishes ESG investing, impact investing, system-level investing, and systemic investing as distinct logics with different questions — explicitly NOT presented as rungs on a ladder of virtue or a maturity spectrum",
+        "Notes that the pieces don't interact: ESG funds, direct deals, and the three unrelated grant programmes share no system or thesis",
+        "Provides a concrete 'what it would take' pathway with sequenced steps (e.g., choose a system, map it, build a thesis, restructure governance/learning) rather than generic advice",
+        "States the honest price tag of becoming systemic (coordination overhead, decade-plus horizons, attribution friction with the board, thin track record) AND fairly presents the simpler alternative — retiring the phrase, or joining/co-funding someone else's strategy — as a legitimate choice for a £40M foundation, not a failure",
+        "Tone is developmental — builds the foundation's capability to see the gap, without mocking the board's language"
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "I'm putting together a blended finance vehicle for water resilience in the Colorado River basin. Two philanthropic LPs are in, a development bank is interested in a senior tranche, and I have a pipeline of ~12 deals (ag water efficiency tech, wetland restoration credits, a water rights platform). My worry is it ends up as just a water deal fund. How do I structure it so it's actually systemic?",
+      "expected_output": "Design guidance that takes the worry seriously: tests whether a deal pipeline retrofitted with systems language is the live risk (deal-first anti-pattern), asks for/derives the theory of transformation before vehicle structure, recommends governance and architecture features that hold the difference (strategy council beyond the IC, non-investable levers funded alongside tranches, learning budget line, adaptation/re-allocation rights, backbone function), discusses vehicle geometry options (single blended vehicle vs aligned sleeves), and names honest costs including coordination overhead and DFI tranche rigidity.",
+      "files": [],
+      "assertions": [
+        "Validates the worry as the central design risk: names that retrofitting a systems story around an existing 12-deal pipeline is the failure mode (deal-first anti-pattern)",
+        "Insists on deriving a theory of transformation (which combination of shifts would change basin dynamics) before finalizing vehicle structure, and shows what that would look like for this basin",
+        "Recommends governance beyond the investment committee — a strategy council or equivalent that holds the thesis and includes non-funder voices (basin communities, tribes, agricultural actors)",
+        "Funds non-investable levers (policy/water governance reform, community capacity, research/data) alongside the investment tranches, with real money attached",
+        "Presents at least two distinct vehicle geometries as an explicit decision with trade-offs (e.g., single tranched blended vehicle vs aligned sleeves/deal-by-deal syndication coordinated by a backbone) and recommends one for this context with rationale — describing only one structure, however sophisticated, does not pass",
+        "Specifies adaptation mechanics concretely in the structure itself — pre-agreed re-allocation windows or triggers in fund documents/LPA, sleeve-level flexibility, or equivalent — not just a stated intention to learn and adapt",
+        "Includes a funded learning/sensemaking function with a stated budget share or named owner",
+        "Names honest costs and frictions: coordination overhead, development-bank tranche rigidity limiting adaptation, attribution pressure from the senior tranche"
+      ]
+    }
+  ]
+}

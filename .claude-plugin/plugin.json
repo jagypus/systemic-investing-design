@@ -1,0 +1,19 @@
+{
+  "name": "systemic-investing-design",
+  "version": "1.0.0",
+  "description": "Design systemic investing strategies, portfolios, and vehicles: TransCap's systemic investing logic, TWIST wealth-holder practice, Tamarack's portfolio typology, catalytic & blended capital architecture, and developmental + Blue Marble evaluation.",
+  "author": {
+    "name": "David Hodgson",
+    "email": "david.hodgson@gmail.com"
+  },
+  "license": "MIT",
+  "keywords": [
+    "systemic-investing",
+    "systems-change",
+    "blended-finance",
+    "catalytic-capital",
+    "strategic-portfolios",
+    "place-based-investing",
+    "developmental-evaluation"
+  ]
+}
